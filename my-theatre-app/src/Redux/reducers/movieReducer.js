@@ -2,9 +2,9 @@ import {
     GET_MOVIES,
     GET_MOVIES_SUCCESS,
     GET_MOVIES_FAIL,
-    // GET_POST_DETAILS,
-    // GET_POST_DETAILS_SUCCESS,
-    // GET_POST_DETAILS_FAIL,
+    GET_MOVIE_DETAILS,
+    GET_MOVIE_DETAILS_SUCCESS,
+    GET_MOVIE_DETAILS_FAIL,
   } from "../actionTypes";
   
   const initialState = {
@@ -34,21 +34,21 @@ import {
           loadingMovies: false,
         };
         break;
-    //   case GET_POST_DETAILS:
-    //     state = { ...state, loadingPostDetails: true };
-    //     break;
-    //   case GET_POST_DETAILS_SUCCESS:
-    //     state = { ...state, post: action.payload[0], loadingPostDetails: false };
-    //     break;
-    //   case GET_POST_DETAILS_FAIL:
-    //     state = {
-    //       ...state,
-    //       error: {
-    //         message: "Error",
-    //       },
-    //       loadingPostDetails: false,
-    //     };
-    //     break;
+      case GET_MOVIE_DETAILS:
+        state = { ...state, loadingMovieDetails: true };
+        break;
+      case GET_MOVIE_DETAILS_SUCCESS:
+        state = { ...state, movie: action.payload[0], loadingMovieDetails: false };
+        break;
+      case GET_MOVIE_DETAILS_FAIL:
+        state = {
+          ...state,
+          error: {
+            message: "Error",
+          },
+          loadingMovieDetails: false,
+        };
+        break;
       default:
         state = { ...state };
         break;

@@ -22,6 +22,8 @@
       "imdbID": "tt0499549",
       "Type": "movie",
       "Response": "True",
+      "price": 10,
+      "occupied": [20, 21, 30, 1, 2, 8],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -122,6 +124,8 @@
       "imdbID": "tt0480249",
       "Type": "movie",
       "Response": "True",
+      "price": 12,
+      "occupied": [9, 41, 35, 11, 65, 26],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -221,6 +225,8 @@
       "imdbID": "tt0416449",
       "Type": "movie",
       "Response": "True",
+      "price": 8,
+      "occupied": [37, 25, 44, 13, 2, 3],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -319,6 +325,8 @@
       "imdbID": "tt0848228",
       "Type": "movie",
       "Response": "True",
+      "price": 9,
+      "occupied": [10, 12, 50, 33, 28, 47],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -419,6 +427,8 @@
       "imdbID": "tt0993846",
       "Type": "movie",
       "Response": "True",
+      "price": 11,
+      "occupied": [11, 12, 32, 38, 41, 47],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -519,6 +529,8 @@
       "imdbID": "tt0816692",
       "Type": "movie",
       "Response": "True",
+      "price": 8,
+      "occupied": [8, 15, 32, 33, 37, 38],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -620,6 +632,8 @@
       "Type": "series",
       "totalSeasons": "7",
       "Response": "True",
+      "price": 10,
+      "occupied": [4, 5, 19, 26, 30, 40],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -721,6 +735,8 @@
       "Type": "series",
       "totalSeasons": "5",
       "Response": "True",
+      "price": 7,
+      "occupied": [20, 21, 22, 39, 44, 45],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -822,6 +838,8 @@
       "Type": "series",
       "totalSeasons": "3",
       "Response": "True",
+      "price": 9,
+      "occupied": [6, 14, 19, 22, 36, 37],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -923,6 +941,8 @@
       "Type": "series",
       "totalSeasons": "3",
       "Response": "True",
+      "price": 12,
+      "occupied": [1, 2, 12, 38, 41, 47],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1024,6 +1044,8 @@
       "Type": "series",
       "totalSeasons": "2",
       "Response": "True",
+      "price": 14,
+      "occupied": [15, 18, 26, 38, 43, 44],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1125,6 +1147,8 @@
       "Type": "series",
       "totalSeasons": "5",
       "Response": "True",
+      "price": 9,
+      "occupied": [11, 12, 32, 38, 41, 47],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1226,6 +1250,8 @@
       "imdbID": "tt1211837",
       "Type": "movie",
       "Response": "True",
+      "price": 12,
+      "occupied": [16, 17, 25, 30, 31, 44],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1325,6 +1351,8 @@
       "imdbID": "tt3748528",
       "Type": "movie",
       "Response": "True",
+      "price": 10,
+      "occupied": [9, 41, 35, 11, 65, 26],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1426,6 +1454,8 @@
       "imdbID": "tt2094766",
       "Type": "movie",
       "Response": "True",
+      "price": 13,
+      "occupied": [14, 15, 25, 29, 32, 42],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",
@@ -1527,6 +1557,8 @@
       "Type": "series",
       "totalSeasons": "1",
       "Response": "True",
+      "price": 10,
+      "occupied": [6, 25, 30, 14, 65, 39],
       "theaters": [
         {
           "name": "Alamo Drafthouse Cinema South Lamar",

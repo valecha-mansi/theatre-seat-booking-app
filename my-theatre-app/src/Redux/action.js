@@ -34,10 +34,10 @@ import {
     };
   };
   
-  export const getMovieDetailsSuccess = (post) => {
+  export const getMovieDetailsSuccess = (movies) => {
     return {
       type: GET_MOVIE_DETAILS_SUCCESS,
-      payload: post,
+      payload: movies,
     };
   };
   
