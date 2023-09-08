@@ -38,7 +38,8 @@ import {
         state = { ...state, loadingMovieDetails: true };
         break;
       case GET_MOVIE_DETAILS_SUCCESS:
-        state = { ...state, movie: action.payload[0], loadingMovieDetails: false };
+       
+        state = { ...state, movie: action.payload, loadingMovieDetails: false };
         break;
       case GET_MOVIE_DETAILS_FAIL:
         state = {

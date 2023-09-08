@@ -22,7 +22,6 @@ function* onGetMovies() {
 function* onGetMovieDetails({ payload: id }) {
   try {
     const response = yield call(getMovieDetailsApi, id);
-    console.log("Response--", response);
     yield put(getMovieDetailsSuccess(response));
   } catch (error) {
     yield put(getMovieDetailsFail(error.response));

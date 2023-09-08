@@ -46,4 +46,5 @@ import {
       type: GET_MOVIE_DETAILS_FAIL,
       payload: error,
     };
-  };
+  }
+  
